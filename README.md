@@ -18,42 +18,8 @@ python api.py
 
 - It will accept image uploads at POST /verifications
 
-### 2.Then run the live detection client on another terminal
 
-python test_realtime.py
-
-- This will start your webcam.
-
-- Frames are continuously sent to the API.
-
-- Bounding boxes and label annotations are shown live.
-
-- If all required labels are detected:
-
-Annotated frame and face crop are saved inside a subfolder in results/.
-
-The script will display the final frame and stop.
-
-
-
-Output example
-✅ All labels detected!
-🧠 Face Match: True
-🏷️ Logo Found: True
-🔲 Pattern Count: 5
-🔍 ID Number: 12345678
-👤 First Name: John
-👤 Last Name: Doe
-🖼️ Annotated image saved and displayed. Stopping...
-
-You will find the images saved in:
-results/session_20250524_151230/
-├── annotated.jpg
-└── face_crop.jpg
-
-This one is just for testing, dont need to run this
-
-### 3. Run the GUI Application
+### 2. Run the GUI Application
 
 python gui_app.py
 
