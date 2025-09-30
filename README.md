@@ -9,26 +9,6 @@ This project is a computer vision-based ID verification system that:
 - Saves the annotated frame and cropped face image if all labels are detected
 - Provides results through a RESTful API
 
-## 📁 Project Structure
-
-project/
-│
-├── app.py # Main Flask API that handles image uploads, detection, annotation, and response.
-├── test_realtime.py # Client script that captures webcam frames and sends them to the API.
-│
-├── models/ # Contains pre-trained models (FaceNet, YOLO, etc.)
-│ └── best.pt # training yolo model
-│
-├── draw_utils.py # Utility scripts (e.g., for FaceNet verification, OCR, drawing boxes)
-│
-├── results/ # Automatically generated on successful detection.
-│ └── session_YYYYMMDD_HHMMSS/
-│ ├── annotated.jpg # Annotated frame with bounding boxes.
-│ └── face_crop.jpg # Cropped face from the frame.
-│
-├── requirements.txt # List of required Python packages.
-└── README.md # This file.
-
 ## How to run locally
 
 ### 1.Start the Flask API server on one terminal
