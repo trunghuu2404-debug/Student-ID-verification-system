@@ -1,0 +1,4 @@
+Face Match Result: no match
+Logo Found: True
+Pattern Count: 3
+All Labels Detected: True

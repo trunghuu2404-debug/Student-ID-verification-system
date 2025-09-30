@@ -1,0 +1,17 @@
+flask
+flask-cors
+opencv-python
+numpy
+pillow
+facenet-pytorch
+torch
+torchvision
+matplotlib
+pytesseract 
+tqdm
+requests
+python-dotenv
+pyotp
+secure-smtplib
+customtkinter
+openpyxl
