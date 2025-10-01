@@ -11,7 +11,7 @@ This project is a computer vision-based ID verification system that:
 
 ## How to run locally
 
-### 1.Start the Flask API server on one terminal
+### 1.Start the Flask API server on one terminal, located in project folder
 python api.py
 
 - The server will start on http://127.0.0.1:5000/
@@ -19,7 +19,7 @@ python api.py
 - It will accept image uploads at POST /verifications
 
 
-### 2. Run the GUI Application
+### 2. Run the GUI Application, located in project folder
 
 python gui_app.py
 
